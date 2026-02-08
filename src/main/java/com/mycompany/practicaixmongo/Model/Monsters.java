@@ -8,22 +8,14 @@ public class Monsters {
     private String species;
     private String type;
     private String description;
-
     private List<String> elements;
-    private List<Weakness> weaknesses;
-    private List<Resistance> resistances;
-    private List<String> ailments;
-    private List<String> locations;
+
 
     public Monsters() {
     }
 
     public Monsters(int id, String name, String species, String type, String description,
-                   List<String> elements,
-                   List<Weakness> weaknesses,
-                   List<Resistance> resistances,
-                   List<String> ailments,
-                   List<String> locations) {
+                   List<String> elements) {
 
         this.id = id;
         this.name = name;
@@ -31,10 +23,6 @@ public class Monsters {
         this.type = type;
         this.description = description;
         this.elements = elements;
-        this.weaknesses = weaknesses;
-        this.resistances = resistances;
-        this.ailments = ailments;
-        this.locations = locations;
     }
 
     // Getters y Setters
@@ -56,16 +44,4 @@ public class Monsters {
 
     public List<String> getElements() { return elements; }
     public void setElements(List<String> elements) { this.elements = elements; }
-
-    public List<Weakness> getWeaknesses() { return weaknesses; }
-    public void setWeaknesses(List<Weakness> weaknesses) { this.weaknesses = weaknesses; }
-
-    public List<Resistance> getResistances() { return resistances; }
-    public void setResistances(List<Resistance> resistances) { this.resistances = resistances; }
-
-    public List<String> getAilments() { return ailments; }
-    public void setAilments(List<String> ailments) { this.ailments = ailments; }
-
-    public List<String> getLocations() { return locations; }
-    public void setLocations(List<String> locations) { this.locations = locations; }
 }

@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def9c88c-3554-4c9c-b1de-d674848344c4" name="Changes" comment="Modelos Monsters, Weakness y Resistance implementados">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/iceborne.png" afterDir="false" />
+    <list default="true" id="def9c88c-3554-4c9c-b1de-d674848344c4" name="Changes" comment="Imagenes añadidas al repositorio. DAO creado. Empieza la creacion de la interfaz">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Conexion/ConexionMongo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Conexion/ConexionMongo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/DAO/MHDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/DAO/MHDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Model/Monsters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Model/Monsters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Model/Resistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Model/Weakness.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/bestiaColmillos.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/elderDrake.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/iceborne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/monstruosSmall.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/wyvernBruto.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/wyvernColmillos.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/wyvernNadador.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/wyvernPajaro.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/wyvernVolador.jfif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +111,7 @@
       <updated>1770141833761</updated>
       <workItem from="1770141834351" duration="1749000" />
       <workItem from="1770571358941" duration="43000" />
-      <workItem from="1770571941346" duration="1902000" />
+      <workItem from="1770571941346" duration="4317000" />
     </task>
     <task id="LOCAL-00001" summary="Empezando la aplicacion">
       <option name="closed" value="true" />
@@ -117,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770572124300</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Imagenes añadidas al repositorio. DAO creado. Empieza la creacion de la interfaz">
+      <option name="closed" value="true" />
+      <created>1770574783117</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770574783117</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Empezando la aplicacion" />
     <MESSAGE value="Modelos Monsters, Weakness y Resistance implementados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modelos Monsters, Weakness y Resistance implementados" />
+    <MESSAGE value="Imagenes añadidas al repositorio. DAO creado. Empieza la creacion de la interfaz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imagenes añadidas al repositorio. DAO creado. Empieza la creacion de la interfaz" />
   </component>
 </project>
