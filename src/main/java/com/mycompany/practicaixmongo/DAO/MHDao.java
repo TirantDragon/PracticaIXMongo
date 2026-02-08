@@ -29,12 +29,6 @@ public class MHDao {
         return lista;
     }
 
-    public Monsters selectById(int id) {
-        Document doc = collection.find(eq("id", id)).first();
-        if (doc == null) return null;
-        return documentToMonster(doc);
-    }
-
     // INSERT
     public void insert(Monsters monster) {
         collection.insertOne(monsterToDocument(monster));
