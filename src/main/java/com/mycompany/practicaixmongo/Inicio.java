@@ -11,6 +11,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
+import java.io.IOException;
 import java.util.List;
 
 public class Inicio {
@@ -61,8 +62,8 @@ public class Inicio {
         tipo.setCellValueFactory(new PropertyValueFactory<>("type"));
         descrip.setCellValueFactory(new PropertyValueFactory<>("description"));
         elemento.setCellValueFactory(cellData -> {
-            Monsters m = cellData.getValue();
-            String elementos = String.join(", ", m.getElements() != null ? m.getElements() : List.of());
+            Monsters montruo = cellData.getValue();
+            String elementos = String.join(", ", montruo.getElements() != null ? montruo.getElements() : List.of());
             return new SimpleStringProperty(elementos);
         });
         cargarDatos();
@@ -74,15 +75,17 @@ public class Inicio {
     }
 
     @FXML
-    protected void insertar() {
-        System.out.println("Insertar pulsado");
-        // Aquí pones la lógica para abrir ventana insertar o lo que sea
+    protected void insertar() throws IOException {
+        Main.setRoot("insertar");
     }
 
     @FXML
-    protected void actualizar() {
-        System.out.println("Actualizar pulsado");
-        // Aquí pones la lógica para actualizar el registro seleccionado
+    protected void actualizar() throws IOException {
+        Monsters seleccionado = tabla.getSelectionModel().getSelectedItem();
+        if (seleccionado == null) return;
+
+        Actualizar.setMonstruoTemporal(seleccionado);
+        Main.setRoot("actualizar");
     }
 
     @FXML
@@ -98,5 +101,10 @@ public class Inicio {
     protected void filtros() {
         System.out.println("Filtros pulsado");
         // Aquí pones la lógica para abrir filtro o lo que quieras
+    }
+
+    @FXML
+    private void apagar() throws IOException{
+        System.exit(0);
     }
 }

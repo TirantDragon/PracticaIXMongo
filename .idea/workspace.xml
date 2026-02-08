@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def9c88c-3554-4c9c-b1de-d674848344c4" name="Changes" comment="Imagenes añadidas definitivas al repositorio. DAO creado. Empieza la creacion de la interfaz. Clases no necesarias borradas">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/CSS/estilo.css" afterDir="false" />
+    <list default="true" id="def9c88c-3554-4c9c-b1de-d674848344c4" name="Changes" comment="Tabla en funcionamiento, interfaz principal terminada">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Actualizar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Insertar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mycompany/practicaixmongo/actualizar.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mycompany/practicaixmongo/insertar.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/DAO/MHDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/DAO/MHDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Inicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/mycompany/practicaixmongo/inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/mycompany/practicaixmongo/inicio.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,6 +55,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/steve/Documents/GitHub/PracticaIXMongo/src/main/java/com/mycompany/practicaixmongo",
     "last_opened_file_path": "C:/Users/steve/Documents/GitHub/PracticaIXMongo",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -117,7 +123,7 @@
       <updated>1770141833761</updated>
       <workItem from="1770141834351" duration="1749000" />
       <workItem from="1770571358941" duration="43000" />
-      <workItem from="1770571941346" duration="7842000" />
+      <workItem from="1770571941346" duration="15508000" />
     </task>
     <task id="LOCAL-00001" summary="Empezando la aplicacion">
       <option name="closed" value="true" />
@@ -159,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770577141977</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tabla en funcionamiento, interfaz principal terminada">
+      <option name="closed" value="true" />
+      <created>1770581386106</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770581386106</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +195,7 @@
     <MESSAGE value="Modelos Monsters, Weakness y Resistance implementados" />
     <MESSAGE value="Imagenes añadidas al repositorio. DAO creado. Empieza la creacion de la interfaz" />
     <MESSAGE value="Imagenes añadidas definitivas al repositorio. DAO creado. Empieza la creacion de la interfaz. Clases no necesarias borradas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Imagenes añadidas definitivas al repositorio. DAO creado. Empieza la creacion de la interfaz. Clases no necesarias borradas" />
+    <MESSAGE value="Tabla en funcionamiento, interfaz principal terminada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tabla en funcionamiento, interfaz principal terminada" />
   </component>
 </project>
