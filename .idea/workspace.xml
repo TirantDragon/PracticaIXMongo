@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def9c88c-3554-4c9c-b1de-d674848344c4" name="Changes" comment="pipeline añadida">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/DAO/MHDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/DAO/MHDao.java" afterDir="false" />
-    </list>
+    <list default="true" id="def9c88c-3554-4c9c-b1de-d674848344c4" name="Changes" comment="Usuario y contraseña cambiada" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +113,7 @@
       <updated>1770141833761</updated>
       <workItem from="1770141834351" duration="1749000" />
       <workItem from="1770571358941" duration="43000" />
-      <workItem from="1770571941346" duration="16607000" />
+      <workItem from="1770571941346" duration="17056000" />
     </task>
     <task id="LOCAL-00001" summary="Empezando la aplicacion">
       <option name="closed" value="true" />
@@ -197,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770594616843</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Usuario y contraseña cambiada">
+      <option name="closed" value="true" />
+      <created>1770594845766</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1770594845766</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +228,7 @@
     <MESSAGE value="Tabla en funcionamiento, interfaz principal terminada" />
     <MESSAGE value="Interfaz terminada, metodos en funcionamiento, archivo json añadido" />
     <MESSAGE value="pipeline añadida" />
-    <option name="LAST_COMMIT_MESSAGE" value="pipeline añadida" />
+    <MESSAGE value="Usuario y contraseña cambiada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Usuario y contraseña cambiada" />
   </component>
 </project>

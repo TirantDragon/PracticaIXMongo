@@ -98,12 +98,6 @@ public class Inicio {
     }
 
     @FXML
-    protected void filtros() {
-        System.out.println("Filtros pulsado");
-        // Aquí pones la lógica para abrir filtro o lo que quieras
-    }
-
-    @FXML
     private void apagar() throws IOException{
         System.exit(0);
     }
