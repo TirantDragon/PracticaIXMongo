@@ -67,14 +67,6 @@
                   <Insets bottom="50.0" />
                </VBox.margin>
             </Button>
-            <Button fx:id="filtros" mnemonicParsing="false" onAction="#filtros" text="Filtros">
-               <font>
-                  <Font size="24.0" />
-               </font>
-               <VBox.margin>
-                  <Insets bottom="50.0" />
-               </VBox.margin>
-            </Button>
             <Button fx:id="salir" mnemonicParsing="false" onAction="#apagar" text="Salir" />
          </children>
          <BorderPane.margin>
