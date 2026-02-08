@@ -3,7 +3,7 @@ package com.mycompany.practicaixmongo;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class Inicio {
     @FXML
     private Label welcomeText;
 
