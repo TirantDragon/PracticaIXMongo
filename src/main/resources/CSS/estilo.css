@@ -1,0 +1,66 @@
+/* estilos.css */
+
+.root {
+    -fx-background-color: linear-gradient(to bottom, #A65E2E, #6B3E0F); /* degradado madera cálido */
+    -fx-padding: 10;
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ScrollPane con fondo semi-transparente madera */
+.scroll-pane {
+    -fx-background-color: rgba(182, 107, 40, 0.3); /* naranja madera semi-transparente */
+    -fx-background-insets: 0;
+    -fx-background-radius: 10;
+    -fx-border-color: #7C4A1F;
+    -fx-border-width: 3;
+    -fx-border-radius: 10;
+}
+
+/* TableView dentro del ScrollPane */
+.table-view {
+    -fx-background-color: #D69F6A; /* naranja claro */
+    -fx-border-color: transparent;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+/* Column headers */
+.table-view .column-header, .table-view .column-header-background {
+    -fx-background-color: #B86B28; /* naranja madera */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+/* Celdas */
+.table-view .cell {
+    -fx-text-fill: #4B2E05; /* marrón oscuro */
+    -fx-font-size: 13px;
+}
+
+/* Imágenes con sombra */
+.image-view {
+    -fx-effect: dropshadow(gaussian, #7C4A1F, 15, 0, 0, 0);
+}
+
+/* Botones estilo madera naranja */
+.button {
+    -fx-background-color: #B86B28;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+    -fx-padding: 10 20 10 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0, 0, 2);
+    -fx-transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    -fx-background-color: #D28B3A;
+}
+
+/* VBox spacing para paneles izquierdo y derecho */
+.vbox {
+    -fx-spacing: 15;
+}

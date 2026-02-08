@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.image.Image?>
@@ -9,8 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="869.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="869.0" prefWidth="1200.0" stylesheets="@../../../CSS/estilo.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.practicaixmongo.Inicio">
    <top>
       <ImageView fitHeight="163.0" fitWidth="365.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
          <image>
@@ -18,32 +19,20 @@
          </image>
       </ImageView>
    </top>
-   <center>
-      <TableView fx:id="tabla" prefHeight="430.0" prefWidth="325.0" BorderPane.alignment="CENTER">
-        <columns>
-          <TableColumn fx:id="id" prefWidth="42.0" text="Id" />
-          <TableColumn fx:id="nombre" prefWidth="127.0" text="Nombre" />
-            <TableColumn fx:id="especie" prefWidth="120.0" text="Especie" />
-            <TableColumn fx:id="tipo" prefWidth="93.0" text="Tipo" />
-            <TableColumn fx:id="descrip" prefWidth="267.0" text="Descripcion" />
-            <TableColumn fx:id="elemento" prefWidth="130.0" text="Elementos" />
-        </columns>
-      </TableView>
-   </center>
    <left>
-      <VBox prefHeight="706.0" prefWidth="211.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="706.0" prefWidth="230.0" spacing="15.0" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="261.0" fitWidth="214.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="220.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../images/wivernVolador.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="217.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="180.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../images/garuga.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="264.0" fitWidth="266.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="220.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../images/iceborne.png" />
                </image>
@@ -52,29 +41,57 @@
       </VBox>
    </left>
    <right>
-      <VBox prefHeight="706.0" prefWidth="206.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="706.0" prefWidth="220.0" spacing="20.0" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="insertar" mnemonicParsing="false" text="Insertar">
+            <Button fx:id="insertar" mnemonicParsing="false" onAction="#insertar" text="Insertar">
                <font>
                   <Font size="24.0" />
                </font>
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
             </Button>
-            <Button fx:id="actualizar" mnemonicParsing="false" text="Actualizar">
+            <Button fx:id="actualizar" mnemonicParsing="false" onAction="#actualizar" text="Actualizar">
                <font>
                   <Font size="24.0" />
                </font>
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
             </Button>
-            <Button fx:id="borrar" mnemonicParsing="false" text="Borrar">
+            <Button fx:id="borrar" mnemonicParsing="false" onAction="#borrar" text="Borrar">
                <font>
                   <Font size="24.0" />
                </font>
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
             </Button>
-            <Button fx:id="filtros" mnemonicParsing="false" text="Filtros">
+            <Button fx:id="filtros" mnemonicParsing="false" onAction="#filtros" text="Filtros">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
          </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
       </VBox>
    </right>
+   <center>
+      <ScrollPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <content>
+            <TableView fx:id="tabla" prefHeight="661.0" prefWidth="1011.0">
+               <columns>
+                  <TableColumn fx:id="id" prefWidth="50.0" text="Id" />
+                  <TableColumn fx:id="nombre" prefWidth="133.0" text="Nombre" />
+                  <TableColumn fx:id="especie" prefWidth="186.0" text="Especie" />
+                  <TableColumn fx:id="tipo" minWidth="0.0" prefWidth="180.0" text="Tipo" />
+                  <TableColumn fx:id="descrip" prefWidth="347.0" text="Descripción" />
+                  <TableColumn fx:id="elemento" prefWidth="114.0" text="Elementos" />
+               </columns>
+            </TableView>
+         </content>
+      </ScrollPane>
+   </center>
 </BorderPane>

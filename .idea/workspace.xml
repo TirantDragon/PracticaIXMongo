@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def9c88c-3554-4c9c-b1de-d674848344c4" name="Changes" comment="Imagenes añadidas al repositorio. DAO creado. Empieza la creacion de la interfaz">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="def9c88c-3554-4c9c-b1de-d674848344c4" name="Changes" comment="Imagenes añadidas definitivas al repositorio. DAO creado. Empieza la creacion de la interfaz. Clases no necesarias borradas">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/CSS/estilo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/DAO/MHDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/DAO/MHDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Model/Monsters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Model/Monsters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Model/Resistance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Model/Weakness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/bestiaColmillos.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/elderDrake.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/iceborne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/monstruosSmall.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/wyvernBruto.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/wyvernColmillos.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/wyvernNadador.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/wyvernPajaro.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/wyvernVolador.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Inicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/mycompany/practicaixmongo/inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/mycompany/practicaixmongo/inicio.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -53,27 +43,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/steve/Documents/GitHub/PracticaIXMongo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/steve/Documents/GitHub/PracticaIXMongo",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\steve\Documents\GitHub\PracticaIXMongo\src\main\resources\images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ConexionMongo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.practicaixmongo.Conexion.ConexionMongo" />
       <module name="PracticaIXMongo" />
@@ -87,8 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.practicaixmongo.Main" />
+      <module name="PracticaIXMongo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.practicaixmongo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ConexionMongo" />
       </list>
     </recent_temporary>
@@ -111,7 +117,7 @@
       <updated>1770141833761</updated>
       <workItem from="1770141834351" duration="1749000" />
       <workItem from="1770571358941" duration="43000" />
-      <workItem from="1770571941346" duration="4317000" />
+      <workItem from="1770571941346" duration="7842000" />
     </task>
     <task id="LOCAL-00001" summary="Empezando la aplicacion">
       <option name="closed" value="true" />
@@ -137,16 +143,44 @@
       <option name="project" value="LOCAL" />
       <updated>1770574783117</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Imagenes añadidas definitivas al repositorio. DAO creado. Empieza la creacion de la interfaz. Clases no necesarias borradas">
+      <option name="closed" value="true" />
+      <created>1770577131490</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770577131490</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Imagenes añadidas definitivas al repositorio. DAO creado. Empieza la creacion de la interfaz. Clases no necesarias borradas">
+      <option name="closed" value="true" />
+      <created>1770577141977</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770577141977</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Empezando la aplicacion" />
     <MESSAGE value="Modelos Monsters, Weakness y Resistance implementados" />
     <MESSAGE value="Imagenes añadidas al repositorio. DAO creado. Empieza la creacion de la interfaz" />
-    <option name="LAST_COMMIT_MESSAGE" value="Imagenes añadidas al repositorio. DAO creado. Empieza la creacion de la interfaz" />
+    <MESSAGE value="Imagenes añadidas definitivas al repositorio. DAO creado. Empieza la creacion de la interfaz. Clases no necesarias borradas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imagenes añadidas definitivas al repositorio. DAO creado. Empieza la creacion de la interfaz. Clases no necesarias borradas" />
   </component>
 </project>
