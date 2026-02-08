@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def9c88c-3554-4c9c-b1de-d674848344c4" name="Changes" comment="Tabla en funcionamiento, interfaz principal terminada">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Actualizar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Insertar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mycompany/practicaixmongo/actualizar.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/mycompany/practicaixmongo/insertar.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="def9c88c-3554-4c9c-b1de-d674848344c4" name="Changes" comment="pipeline añadida">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/DAO/MHDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/DAO/MHDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Inicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/practicaixmongo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/mycompany/practicaixmongo/inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/mycompany/practicaixmongo/inicio.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +115,7 @@
       <updated>1770141833761</updated>
       <workItem from="1770141834351" duration="1749000" />
       <workItem from="1770571358941" duration="43000" />
-      <workItem from="1770571941346" duration="15508000" />
+      <workItem from="1770571941346" duration="16607000" />
     </task>
     <task id="LOCAL-00001" summary="Empezando la aplicacion">
       <option name="closed" value="true" />
@@ -173,7 +165,39 @@
       <option name="project" value="LOCAL" />
       <updated>1770581386106</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Interfaz terminada, metodos en funcionamiento, archivo json añadido">
+      <option name="closed" value="true" />
+      <created>1770594169154</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770594169154</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Interfaz terminada, metodos en funcionamiento, archivo json añadido">
+      <option name="closed" value="true" />
+      <created>1770594216495</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1770594216495</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Interfaz terminada, metodos en funcionamiento, archivo json añadido">
+      <option name="closed" value="true" />
+      <created>1770594325281</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770594325281</updated>
+    </task>
+    <task id="LOCAL-00010" summary="pipeline añadida">
+      <option name="closed" value="true" />
+      <created>1770594616843</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1770594616843</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +220,8 @@
     <MESSAGE value="Imagenes añadidas al repositorio. DAO creado. Empieza la creacion de la interfaz" />
     <MESSAGE value="Imagenes añadidas definitivas al repositorio. DAO creado. Empieza la creacion de la interfaz. Clases no necesarias borradas" />
     <MESSAGE value="Tabla en funcionamiento, interfaz principal terminada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tabla en funcionamiento, interfaz principal terminada" />
+    <MESSAGE value="Interfaz terminada, metodos en funcionamiento, archivo json añadido" />
+    <MESSAGE value="pipeline añadida" />
+    <option name="LAST_COMMIT_MESSAGE" value="pipeline añadida" />
   </component>
 </project>

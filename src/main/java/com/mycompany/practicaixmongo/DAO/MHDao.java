@@ -23,7 +23,7 @@ public class MHDao {
 
     public MHDao() {
         MongoDatabase db = ConexionMongo.getDatabase();
-        collection = db.getCollection("monsterHunter");
+        collection = db.getCollection("monsterHunter");//Cambiar el nombre de la colección por el que tengas en MongoDB
     }
 
     public List<Monsters> selectAll() {

@@ -14,9 +14,9 @@ public class ConexionMongo {
     private static MongoDatabase database;
 
     private static final String CONNECTION_STRING =
-            "mongodb+srv://p8538769_db_user:eIA6yPvna7pryacV@cluster0.mw5y8zu.mongodb.net/?appName=Cluster0";//Cambiar el usuario y contraseña por los de tu base de datos
+            "mongodb+srv://<usuario>:<contrasenya>@cluster0.mw5y8zu.mongodb.net/?appName=Cluster0";//Cambiar el usuario y contraseña por los de tu base de datos
 
-    private static final String DB_NAME = "AED";
+    private static final String DB_NAME = "AED";//Cambiar el nombre de la base de datos por el que tengas en MongoDB
 
     public static void conectar() {
 
