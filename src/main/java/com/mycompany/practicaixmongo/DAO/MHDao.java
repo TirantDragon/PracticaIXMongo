@@ -1,14 +1,19 @@
 package com.mycompany.practicaixmongo.DAO;
 
+import com.mongodb.client.AggregateIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.model.Aggregates;
+import com.mongodb.client.model.Projections;
 import com.mycompany.practicaixmongo.Conexion.ConexionMongo;
 import com.mycompany.practicaixmongo.Model.Monsters;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.bson.Document;
+import org.bson.conversions.Bson;
 
 import static com.mongodb.client.model.Filters.eq;
 
@@ -23,7 +28,13 @@ public class MHDao {
 
     public List<Monsters> selectAll() {
         List<Monsters> lista = new ArrayList<>();
-        for (Document doc : collection.find()) {
+        List<Bson> pipeline = Arrays.asList(
+                Aggregates.project(Projections.fields(
+                        Projections.include("id", "name", "species", "type", "description", "elements")
+                ))
+        );
+        AggregateIterable<Document> result = collection.aggregate(pipeline);
+        for (Document doc : result) {
             lista.add(documentToMonster(doc));
         }
         return lista;
